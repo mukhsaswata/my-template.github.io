@@ -172,7 +172,8 @@ section p {
 
 .publication h3 {
     font-size: 20px;
-    color: #1d4a58;
+    color: #000000;
+    font-weight: 700;
     margin-bottom: 8px;
 }
 
