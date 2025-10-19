@@ -157,7 +157,7 @@ section a {
     transition: border-color 0.3s;
 }
 
-section a:active {
+section a:hover {
     border-bottom: 1px solid #2d2d2d;
 }
 
