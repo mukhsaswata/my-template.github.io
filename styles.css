@@ -148,10 +148,10 @@ section p {
     margin-bottom: 15px;
 }
 
-/* Hyperlinks in main content sections */
+/* Hyperlinks in sections content */
 section a {
     color: #2d2d2d;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: none;
     transition: border-color 0.3s;
