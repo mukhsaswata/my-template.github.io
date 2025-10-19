@@ -150,16 +150,15 @@ section p {
 
 /* Hyperlinks in main content sections */
 section a {
-    color: #2d5a63;
+    color: #2d2d2d;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid #2d5a63;
-    transition: all 0.3s;
+    border-bottom: none;
+    transition: border-color 0.3s;
 }
 
-section a:hover {
-    color: #1d4a58;
-    border-bottom-color: #1d4a58;
+section a:active {
+    border-bottom: 1px solid #2d2d2d;
 }
 
 /* Publications */
