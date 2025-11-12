@@ -181,6 +181,21 @@ section a:hover {
     margin-bottom: 8px;
 }
 
+.publication h3 .pdf-link {
+    color: #2d6a7a;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+    margin-right: 8px;
+}
+
+.publication h3 .pdf-link:hover {
+    color: #1d4a58;
+    border-bottom-color: #1d4a58;
+}
+
 .publication .authors {
     font-size: 15px;
     color: #666;
