@@ -186,7 +186,7 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #000000;
-    font-weight: 600;
+    font-weight: 550;
     margin-bottom: 8px;
 }
 
@@ -207,6 +207,16 @@ section a:hover {
     font-size: 15px;
     color: #000000;
     margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.publication .authors::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .publication .venue {
@@ -214,6 +224,16 @@ section a:hover {
     color: #000000;
     font-size: 14px;
     margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.publication .venue::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .publication .description {
@@ -246,7 +266,7 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #1d4a58;
-    font-weight: 600;
+    font-weight: 550;
     margin-bottom: 8px;
 }
 
@@ -255,12 +275,32 @@ section a:hover {
     font-size: 15px;
     margin-bottom: 5px;
     font-style: normal;
+    padding-left: 15px;
+    position: relative;
+}
+
+.talk .venue::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .talk .date {
     color: #000000;
     font-size: 14px;
     font-style: normal;
+    padding-left: 15px;
+    position: relative;
+}
+
+.talk .date::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 /* Teaching */
@@ -288,7 +328,7 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #1d4a58;
-    font-weight: 600;
+    font-weight: 550;
     margin-bottom: 8px;
 }
 
@@ -297,11 +337,31 @@ section a:hover {
     font-size: 14px;
     font-style: normal;
     margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.course .semester::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .course p {
     color: #333;
     font-size: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.course p::before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 /* Responsive Design */
