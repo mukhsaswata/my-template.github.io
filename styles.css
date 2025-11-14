@@ -152,14 +152,13 @@ section p {
 /* Hyperlinks in sections content */
 section a {
     color: #2d2d2d;
-    font-weight: 700;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.3s;
+    font-weight: 400;
+    text-decoration: underline;
+    transition: color 0.3s;
 }
 
 section a:hover {
-    border-bottom-color: #2d2d2d;
+    color: #1d4a58;
 }
 
 /* Publications */
@@ -182,17 +181,15 @@ section a:hover {
 
 .publication h3 .pdf-link {
     color: #2d6a7a;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: all 0.3s;
+    text-decoration: underline;
+    transition: color 0.3s;
     margin-right: 8px;
 }
 
 .publication h3 .pdf-link:hover {
     color: #1d4a58;
-    border-bottom-color: #1d4a58;
 }
 
 .publication .authors {
