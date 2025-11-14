@@ -186,7 +186,7 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #000000;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
@@ -205,12 +205,13 @@ section a:hover {
 
 .publication .authors {
     font-size: 15px;
-    color: #666;
+    color: #000000;
     margin-bottom: 5px;
 }
 
 .publication .venue {
-    color: #666;
+    font-style: normal;
+    color: #000000;
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -245,19 +246,21 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #1d4a58;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
 .talk .venue {
-    color: #666;
+    color: #000000;
     font-size: 15px;
     margin-bottom: 5px;
+    font-style: normal;
 }
 
 .talk .date {
-    color: #888;
+    color: #000000;
     font-size: 14px;
+    font-style: normal;
 }
 
 /* Teaching */
@@ -285,13 +288,14 @@ section a:hover {
     font-family: Georgia, serif;
     font-size: 18px;
     color: #1d4a58;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
 .course .semester {
-    color: #888;
+    color: #000000;
     font-size: 14px;
+    font-style: normal;
     margin-bottom: 10px;
 }
 
