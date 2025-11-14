@@ -164,20 +164,19 @@ section a:hover {
 
 /* Publications */
 .publication {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .publication:last-child {
-    border-bottom: none;
     padding-bottom: 0;
 }
 
 .publication h3 {
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 16px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 8px;
 }
 
@@ -216,19 +215,19 @@ section a:hover {
 
 /* Talks */
 .talk {
-    margin-bottom: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .talk:last-child {
-    border-bottom: none;
     padding-bottom: 0;
 }
 
 .talk h3 {
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 16px;
     color: #1d4a58;
+    font-weight: 400;
     margin-bottom: 8px;
 }
 
@@ -246,19 +245,19 @@ section a:hover {
 
 /* Teaching */
 .course {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .course:last-child {
-    border-bottom: none;
     padding-bottom: 0;
 }
 
 .course h3 {
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 16px;
     color: #1d4a58;
+    font-weight: 400;
     margin-bottom: 8px;
 }
 
